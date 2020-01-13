@@ -1,0 +1,246 @@
+@import url(main.css);
+@import url(fonts.css);
+@import url(webDevelopmentSkills.css);
+
+body {
+    font-family: 'CircularStd', sans-serif;
+    background-image: url('../images/background.png');
+}
+.margin-top-bottom-5 {
+    margin: 5% 0px 0px 0px;
+}
+.padding-0 {
+    padding: 0;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.flex-row-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cubeClient {
+    width: 25px;
+    height: 45px;
+    background-color: black;
+    display: inline-block;
+}
+.cubeWork {
+    width: 25px;
+    height: 45px;
+    background-color: #2cbbad;
+    display: inline-block;
+}
+.colorG {
+    color: #2cbbad;
+}
+.text-bold-custom {
+    font-weight: bold;
+}
+.backgroundColorG {
+    background-color: #2cbbad;
+}
+/* heading ======================================== */
+#clientImg img {
+    width: 90%;
+    border-radius: 50%;
+    border: 2px solid #2cbbad;
+    margin-top: 20%;
+}
+#nameSurname textarea {
+   resize: none;
+}
+#ClientNameSurname{
+    padding: 0;
+    font-size: 1.6em;
+    padding: 0;
+    width: 100%;
+}
+#ClientNameSurname::placeholder {
+    font-size: 1.3em;
+    padding: 0;
+    color: black;
+}
+#clientTitle::placeholder {
+    color: #2cbbad;
+}
+#clientTitle {
+    color: #2cbbad;
+    width: 100%;
+}
+#shortInfo {
+    color: black;
+    width: 110%;
+    font-size: 1em;
+}
+#shortInfo::placeholder {
+    color: black;
+}
+.textarea-o-b-i {
+    outline: none;
+    border: none;
+}
+#cvHeading {
+    border-bottom: 1px solid #2cbbad ;
+}
+#cvSection {
+    padding: 0!important;
+}
+/* contact inputs  */
+.iconContact {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: black;
+}
+.contactInput::placeholder {
+    color: black;
+    border: none;
+    box-shadow: none;
+} 
+.contactInput {
+    color: black;
+    border: none;
+    border-color: none;
+    box-shadow: none;
+}
+.contactInput:focus {
+    box-shadow: none;
+    border: none;
+}
+.input-group-addon {
+    padding: 0px 5px;
+}
+/* ================================LeftSide================================================== */
+#workExperience input, #workExperience textarea {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    resize: none;
+    overflow: hidden;
+}
+.workPosition::placeholder {
+    font-weight: bold;
+    color: black;
+}
+input.workPosition  {
+    font-weight: bold;
+    color: black;
+}
+.workCompany::placeholder {
+    color: black;
+}
+.dateLocation input::placeholder {
+    color: #2cbbad;
+    font-size: 0.9em;
+}
+
+i.glyphicon-plus-sign {
+    margin: 0 3px;
+    
+}
+
+div#addWork, div#addAchievements {
+    background-color: #2cbbad;
+    color: white;
+    /* border-radius: 3px; */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 0.8em;
+}
+div#addWork:hover, div#addAchievements:hover {
+    background-color: #6630d8;
+}
+
+/* Achivements  Right Side=========================================================*/
+.customTextBox i {
+    margin: 1%;
+    font-size: 0.7em;
+    color: #2cbbad;
+}
+.achivementsText::placeholder, .customTextArea::placeholder {
+    color: black;
+}
+.fontSize-0-9 {
+    font-size: 0.9em;
+}
+/* test */
+img {
+    max-width:250px;
+    height: 100%;
+}
+
+input[type=file] {
+    /* padding:10px; */
+    /* background:#c70a0a; */
+    color: black;
+}
+#imageUploader{
+    color: white;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+/* test for interests */
+.element {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.element p {
+    width: 60%;
+    text-align: left;
+}
+.tagInterests i {
+    color: #2cbbad;
+    font-size: 25px;
+    margin-right: 10px;
+
+    width: 40px;
+}
+
+div.tagInterests {
+    display: flex;
+    flex-wrap: wrap;
+}
+#interestInput {
+    width: 60%;
+    background-color: white;
+    color: #2cbbad;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #2cbbad;
+    outline: none;
+}
+input[disabled], textarea[disabled] {
+    background-color: transparent;
+}
+input.contactInput[disabled] {
+    background-color: transparent;
+}
+textarea.contactInput[disabled] {
+    background-color: transparent;
+}
+.fa-minus-circle {
+    color: #2cbbad;
+}
+@media only screen and (max-width: 768px) {
+
+    #info {
+        display: none!important;
+    }
+}
+
+

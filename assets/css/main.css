@@ -1,0 +1,124 @@
+@import url(slider.css);
+
+body {
+    font-family: 'CircularStd', sans-serif;
+}
+.colorLaika {
+    color: #6630d8;
+}
+.active {
+    background-color: #6630d8;
+    color: white;
+}
+.backgroundBtn {
+    /* background-color: #838c91; */
+    background-color: #f3f3f3;
+    color: #6630d8;
+}
+button.backgroundBtn:hover {
+    color: #6630d8;
+}
+.colorP {
+    color: #838c91;
+}
+.colorRed {
+    color: red;
+}
+.colorBlack{
+    color: black;
+}
+#cv {
+    margin: 40px;
+}
+#createCV {
+    height: 100%;
+    max-height: 100%;
+    padding: 30px;
+    border-radius: 3px;
+    box-shadow: #d9e0e3 0px 2px 4px 3px;
+    background-color: white;
+}
+#info {
+    /* min-height: 70vh; */
+    max-height: 100%;
+    width: 90%;
+    margin-left: 10%;
+    padding: 30px;
+    border-radius: 3px;
+    box-shadow: #d9e0e3 0px 2px 4px 3px;
+    background-color: white;
+}
+#cvBtn button {
+    font-size: 0.9em;
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    box-shadow: #e6e6e6 0px 2px 4px 3px;
+}
+#editBtn  button {
+    font-size: 0.9em;
+    width: 40%;
+    padding: 15px 0;
+    font-weight: bold;
+    align-self: right;
+    box-shadow: #e6e6e6 0px 2px 4px 3px;
+}
+.btnDiv {
+    padding: 5px;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color:  white;
+}
+#footer {
+    font-weight: bold;
+}
+
+.displayNone {
+    display: none!important;
+}
+.displayBlock {
+    display: block;
+}
+#pop-up {
+    /* border: 1px solid black; */
+    box-shadow: 0px 5px 30px 30px black;
+    z-index: 3;
+    background-color: white;
+    position: fixed;
+    top: 10%;
+    right: 20%;
+    bottom: 10%;
+    left: 10%;
+    padding: 20px;
+    width: 60%;
+    
+    background-image: url('../images/pop-up.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+#contactLaika {
+    padding: 20px;
+}
+#contactLaika h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#contactLaika p {
+    font-weight: bold;
+}
+
+#popFoot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    #pop-up {
+        margin: 5px;
+    }
+ 
+}

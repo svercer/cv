@@ -1,0 +1,97 @@
+@import url(main.css);
+@import url(fonts.css);
+
+body {
+    font-family: 'CircularStd', sans-serif;
+    background-image: url('../images/background.png');
+}
+#nameSurname {
+    background-color: black;
+    color: white;
+    margin-bottom: -70px;
+    margin-top: 30px;
+    z-index: 1;
+    padding: 70px 20px 0px 25px;
+}
+.margin-0 {
+    margin: 0 auto;
+}
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+#designCV {
+    padding: 30px;
+    height: 100%;
+    max-height: 100%;
+    border: 2px solid black;
+}
+#shortInfo {
+    margin-top: 50px;
+}
+.backgroundBlack{
+    background-color: black!important;
+}
+input.nameSurname::placeholder  {
+    color: white;
+}
+input::placeholder:not(.nameSurname){
+    color:  black;
+}
+textarea#jobPosition::placeholder {
+    color: grey;
+}
+input.nameSurname {
+    text-transform: uppercase;
+    letter-spacing: 0.7rem;
+    width: 100%;
+    max-width: 100%;
+    font-weight: bold;
+    border: none;
+}
+input.nameSurname:focus{
+    border-bottom: 1px solid white;
+    /* transform: scale(1.1); test */
+}
+textarea#jobPosition {
+    /* background-color: black; */
+    border: none;
+    letter-spacing: 0.8rem;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 0.9rem;
+    color: grey;
+    line-height: 1.1rem;
+    overflow: hidden;   
+}
+.inputStyle {
+    border: none;
+    /* width: 100%; */
+    background-color: white;
+}
+.areaStyle {
+    border: none;
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 0;
+}
+.glyphicon {
+    color: black;
+    cursor: pointer;
+    font-size: 1em;
+}
+.glyphicon-trash {
+    color: black;
+}
+.flex-bet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+textarea {
+    width: 100%!important;
+    resize: none!important;
+    overflow: hidden!important;
+}
+

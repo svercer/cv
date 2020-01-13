@@ -1,0 +1,48 @@
+#app {
+    padding: 5px;
+    height: auto;
+    background: #fff;
+    outline: none;
+    font-size: 0.9em;
+  }
+  #app input {
+    outline: none;
+    width: auto;
+    border: 0;
+    padding: 8px;
+    background: none;
+    background-color: aliceblue; /*ova na edit koa ke klikne*/ 
+    width: 100%;
+  }
+  #app::before {
+    content: '';
+    display: table;
+  }
+  #app::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .skillTag {
+    border-radius: 3px;
+    background: transparent;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    font-size: 1em;
+    vertical-align: middle;
+    color: white;
+    background-color: #468f99;
+    /* box-shadow: 0px 1px 4px #c6c6c6, 0px 2px 17px #d1d1d1; */
+  }
+  .tag a {
+    color: white;
+    padding: 3px;
+  }
+  .tag span {
+    padding-right: 10px;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }

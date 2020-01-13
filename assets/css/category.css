@@ -1,0 +1,59 @@
+@import url('fonts.css');
+@import url('banners.css');
+body {
+    font-family: 'CircularStd', sans-serif;
+    background-image: url('../images/background.png')
+}
+.colorLaika {
+    color: #6630d8;
+}
+.colorP {
+    color: #838c91;
+}
+.colorBlack{
+    color: black;
+}
+h1.colorBlack {
+    font-weight: bold;
+}
+.categoryDiv {
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: #d9e0e3 0px 2px 4px 0px;
+    background-color: white;
+}
+.categoryTitle {
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnDiv {
+    height: 15%;
+}
+.btnChoose {
+    color: white;
+    border-radius: 0;
+    background-color: #6630d8;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 2px;
+    box-shadow: #d9e0e3 0px 2px 4px 0px;
+}
+.btnChoose:hover {
+    color: white;
+    text-decoration: none;
+}
+.categoryDiv  p {
+    font-size: 20px;
+    font-weight: 600;
+}
+#headingCategory {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+} 
+
+

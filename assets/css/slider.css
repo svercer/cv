@@ -1,0 +1,27 @@
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    height: 60vh;
+    max-height: 100vh;
+    width: 100%;
+}
+.carousel {
+    margin-top: 5%;
+}
+.carousel-control {
+    color: #6630d8;
+    background: transparent!important;
+    opacity: 1;
+    width: 10%;
+}
+.carousel-control:hover {
+    color: #6630d8;
+    background: transparent!important;
+    opacity: 1;
+}
+a span.glyphicon{
+    /* z-index: 1; */
+    opacity: 0.5;
+    color: #6630d8;
+}
+span.glyphicon.glyphicon-chevron-left:hover {
+    color: #6630d8;
+}

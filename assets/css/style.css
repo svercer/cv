@@ -1,0 +1,54 @@
+@import url(fonts.css);
+body {
+    font-family: 'CircularStd', sans-serif;
+    background-image: url('../images/background.png')
+}
+#inText a{
+    margin-top: 20px;
+    color: white;
+    border-radius: 0;
+    background-color: #6630d8;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 10px 40px;
+}
+#inText a:hover {
+    background-color: #838c91;
+    color: #6630d8;
+}
+#inText p, #footer p {
+    font-size: 0.8em;
+    
+}
+#inText h1 {
+    color: black;
+}
+#inImg {
+    /* width: 60%; */
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+#inImg > img {
+    width: 80%;
+}
+#together {
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+}
+#inMain {
+    height: 90vh;
+}
+.colorLaika {
+    color: #6630d8;
+}
+.colorP {
+    color: #838c91;
+}
+#footer {
+    font-weight: bold;
+}
+

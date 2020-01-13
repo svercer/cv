@@ -1,0 +1,244 @@
+@import url(main.css);
+@import url(fonts.css);
+@import url(digitalMarketingSkills.css);
+
+
+body {
+    font-family: 'CircularStd', sans-serif;
+    background-image: url('../images/background.png');
+}
+.margin-top-bottom-5 {
+    margin: 5% 0px 0px 0px;
+}
+.margin-top-2 {
+    margin-top: 2%;
+}
+.padding-0 {
+    padding: 0;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.flex-row-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex-row-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-row-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.courseTextArea-50 {
+    width: 50%;
+}
+.colorG {
+    color: #2cbbad;
+}
+.text-bold-custom {
+    font-weight: bold;
+}
+.backgroundColorG {
+    background-color: #2cbbad;
+}
+.colorBackgroundMain {
+    background-color: #468f99;
+}
+.colorMain {
+    color:#468f99 ;
+}
+/* heading ======================================== */
+#clientImg img {
+    width: 90%;
+    border-radius: 50%;
+}
+#clientDescription textarea {
+   resize: none;
+}
+#clientNameSurname{
+    padding: 0;
+    font-size: 2em;
+    padding: 0;
+    width: 100%;
+}
+#clientNameSurname::placeholder {
+    /* font-size: 1.3em; */
+    padding: 0;
+    color: black;
+}
+#clientTitle::placeholder {
+    color: grey;
+    
+}
+#clientTitle {
+    color: grey;
+    width: 100%;
+    font-size:1.5em;
+}
+#clientQuote {
+    color: black;
+    width: 100%;
+    font-size: 1em;
+}
+#clientQuote::placeholder {
+    color: black;
+}
+.textarea-o-b-i {
+    outline: none;
+    border: none;
+}
+
+#cvSection {
+    padding: 0!important;
+}
+/* contact inputs  */
+#contact {
+    /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 30px;
+    background-color: #468f99;
+    
+}
+.iconContact {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: transparent;
+}
+.contactInput::placeholder {
+    color: white;
+    border: none;
+    box-shadow: none;
+} 
+.contactInput {
+    color: white;
+    border: none;
+    border-color: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+.contactInput:focus {
+    box-shadow: none;
+    border: none;
+}
+.input-group-addon {
+    padding: 0px 5px;
+}
+/* ================================LeftSide================================================== */
+#cvLeftSide input, #cvLeftSide textarea {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    resize: none;
+    overflow: hidden;
+}
+.workPosition::placeholder, .educationTitle::placeholder {
+    font-weight: bold;
+    color: black;
+}
+input.workPosition, input.educationTitle  {
+    font-weight: bold;
+    color: black;
+    font-size: 1.3em;
+}
+.workCompany::placeholder, .educationSchool::placeholder {
+    color: black;
+}
+.workCompany, .educationSchool {
+    color: black;
+    font-size: 1.2em;
+}
+.dateLocation input::placeholder  {
+    color: #468f99;
+    font-size: 0.9em;
+}
+.fa-dot-circle {
+    padding-top: 5px;
+    font-size: 0.6em;
+}
+/* ===========Education Finish here====== */
+/* Right Side    ==================================================*/
+/* skills  */
+
+  .backgroundBlack {
+      background-color: black;
+  }
+  .bacgroundWhite {
+      background-color: white;
+  }
+
+.fontSize-0-9 {
+    font-size: 0.9em;
+}
+.achivementsText {
+    color: black;
+}
+.achivementsText::placeholder {
+    color: black;
+}
+/* test OK =====================================================================*/ 
+img {
+    max-width:250px;
+    height: 100%;
+}
+input[type=file] {
+    color: black;
+    position: absolute;
+}
+#photoUploader {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    color: white;
+}
+.languageLevel::placeholder {
+    color: #468f99;
+}
+.languageSection input {
+    width: 100%;
+}
+textarea[disabled] {
+    background-color: transparent;
+}
+input[disabled] {
+    background-color: transparent;
+}
+
+input.contactInput[disabled] {
+    background-color: #468f99;
+}
+
+div#addWork, div#addEducation, div#addAch, div#addLan {
+    background-color: #468f99;
+    color: white;
+    /* border-radius: 3px; */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 0.8em;
+}
+.fa-minus-circle {
+    color: red;
+    cursor: pointer;
+}
+
